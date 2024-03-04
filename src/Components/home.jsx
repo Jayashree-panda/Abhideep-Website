@@ -5,6 +5,7 @@ export default function Home() {
     <div className="flex flex-col items-center mt-10 font-mono">
       <img
         src="./abhideep.jpeg"
+        alt=""
         className="rounded-[50%] h-[300px] w-[300px]"
       />
       <div className="grid grid-cols-2 mt-10 px-[20%] gap-10 text-lg text-[springgreen]">

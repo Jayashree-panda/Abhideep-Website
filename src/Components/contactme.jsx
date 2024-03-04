@@ -8,7 +8,7 @@ export default function ContactMe() {
       </h1>
       <div className="grid grid-cols-2 h-[70vh] justify-center items-center mt-14 relative">
         <div className="border-r-2 border-solid border-[springgreen] pr-8 py-16 flex justify-center">
-          <img src="./handsomeAbhi.jpg" height={10} width={500} />
+          <img src="./handsomeAbhi.jpg" height={10} width={500} alt="" />
         </div>
         <div>
           <h1 className="text-5xl font-bold text-center text-[aqua] absolute top-14">

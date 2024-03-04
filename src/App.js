@@ -4,7 +4,7 @@ import Experience from "./Components/experience";
 import Home from "./Components/home";
 import ContactMe from "./Components/contactme";
 import Projects from "./Components/projects";
-import { navItems, aboutMe } from "./constants";
+import { navItems } from "./constants";
 
 function App() {
   const [activeState, setActiveState] = useState("home");
