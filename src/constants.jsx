@@ -1,14 +1,6 @@
 import React from "react";
 
-const navItems = [
-  "Home",
-  "Projects",
-  "Experience",
-  "Education",
-  "Contact Me",
-  "My Vision",
-  "Who Am I ?",
-];
+const navItems = ["Home", "Projects", "Experience", "Education", "Contact Me"];
 
 const projectsData = [
   {
