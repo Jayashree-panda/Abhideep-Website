@@ -12,55 +12,23 @@ const navItems = [
 const projectsData = [
   {
     heading: "Optimizing Multi-Variable System Using Genetic Algorithm",
-    content: (
-      <ul style={{ listStyleType: "circle" }} className="ml-4">
-        <li>
-          Developed Hybrid Cuckoo Search Algorithm (Genetic Algorithm).Developed
-          Hybrid Cuckoo Search Algorithm (Genetic Algorithm)
-        </li>
-        <li>Developed Hybrid Cuckoo Search Algorithm (Genetic Algorithm)</li>
-        <li>Developed Hybrid Cuckoo Search Algorithm (Genetic Algorithm)</li>
-      </ul>
-    ),
+    source: "data-science.jpg",
+    tags: ["EDart", "R Learning", "Tableau", "CBAP"],
   },
   {
     heading: "Optimizing Multi-Variable System Using Genetic Algorithm",
-    content: (
-      <ul style={{ listStyleType: "circle" }} className="ml-4">
-        <li>
-          Developed Hybrid Cuckoo Search Algorithm(Genetic Algorithm).Developed
-          Hybrid Cuckoo Search Algorithm(Genetic Algorithm)
-        </li>
-        <li>Developed Hybrid Cuckoo Search Algorithm(Genetic Algorithm)</li>
-        <li>Developed Hybrid Cuckoo Search Algorithm(Genetic Algorithm)</li>
-      </ul>
-    ),
+    source: "data-science.jpg",
+    tags: ["EDart", "R Learning", "Tableau", "CBAP"],
   },
   {
     heading: "Optimizing Multi-Variable System Using Genetic Algorithm",
-    content: (
-      <ul style={{ listStyleType: "circle" }} className="ml-4">
-        <li>
-          Developed Hybrid Cuckoo Search Algorithm(Genetic Algorithm).Developed
-          Hybrid Cuckoo Search Algorithm(Genetic Algorithm)
-        </li>
-        <li>Developed Hybrid Cuckoo Search Algorithm(Genetic Algorithm)</li>
-        <li>Developed Hybrid Cuckoo Search Algorithm(Genetic Algorithm)</li>
-      </ul>
-    ),
+    source: "data-science.jpg",
+    tags: ["EDart", "R Learning", "Tableau", "CBAP"],
   },
   {
     heading: "Optimizing Multi-Variable System Using Genetic Algorithm",
-    content: (
-      <ul style={{ listStyleType: "circle" }} className="ml-4">
-        <li>
-          Developed Hybrid Cuckoo Search Algorithm(Genetic Algorithm).Developed
-          Hybrid Cuckoo Search Algorithm(Genetic Algorithm)
-        </li>
-        <li>Developed Hybrid Cuckoo Search Algorithm(Genetic Algorithm)</li>
-        <li>Developed Hybrid Cuckoo Search Algorithm(Genetic Algorithm)</li>
-      </ul>
-    ),
+    source: "data-science.jpg",
+    tags: ["EDart", "R Learning", "Tableau", "CBAP"],
   },
 ];
 

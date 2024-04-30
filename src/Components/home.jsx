@@ -5,17 +5,17 @@ import styles from "../index.scss";
 export default function Home() {
   return (
     <div>
-      <div className="flex flex-col justify-center pt-8 items-center mt-[4%]">
+      <div className="flex flex-col justify-center pt-8 items-center mt-[4%] text-center">
         <img
           src="./abhideep.jpeg"
           alt=""
           className="rounded-[50%] h-[150px] w-[150px]"
         />
-        <p className="text-lg mt-2">
+        <p className="text-lg mt-[1%]  text-[aqua] w-[50%]">
           I am Abhideep. I analyze data to take accurate buisness decision. I am
+          Abhideep. I analyze data to take accurate buisness decision. I am
           Abhideep. I analyze data to take accurate buisness decision.
         </p>
-        I am Abhideep. I analyze data to take accurate buisness decision.
       </div>
       <div>
         <h1 className="tracking-widest text-3xl font-bold text-center mt-[4%] text-[springgreen]">
