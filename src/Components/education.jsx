@@ -1,6 +1,7 @@
 import React from "react";
 import { MdLocationOn } from "react-icons/md";
 import { educationData } from "../constants";
+import styles from "../index.scss";
 
 export default function Education() {
   const renderElement = (education) => (
@@ -25,7 +26,9 @@ export default function Education() {
         EDUCATION
       </h1>
       <div className="flex justify-center">
-        <div className="pr-2 border-r-2 border-solid border-[springgreen]">{renderElement(educationData[0])}</div>
+        <div className="pr-2 border-r-2 border-solid border-[springgreen]">
+          {renderElement(educationData[0])}
+        </div>
         <div className="ml-4">{renderElement(educationData[1])}</div>
       </div>
     </div>

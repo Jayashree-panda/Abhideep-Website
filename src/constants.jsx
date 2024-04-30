@@ -1,6 +1,13 @@
 import React from "react";
 
-const navItems = ["Home", "Projects", "Experience", "Education", "Contact Me"];
+const navItems = [
+  "Home",
+  "About Me",
+  "Projects",
+  "Experience",
+  "Education",
+  "Contact Me",
+];
 
 const projectsData = [
   {
@@ -295,4 +302,26 @@ const educationData = [
     ),
   },
 ];
-export { navItems, projectsData, experienceData, educationData };
+
+const projectDataSummary = [
+  {
+    heading: "Optimizing Multi-Variable System Using Genetic Algorithm",
+    source: "data-science.jpg",
+  },
+  {
+    heading: "Optimizing Multi-Variable System Using Genetic Algorithm",
+    source: "data-science.jpg",
+  },
+  {
+    heading: "Optimizing Multi-Variable System Using Genetic Algorithm",
+    source: "data-science.jpg",
+  },
+];
+
+export {
+  navItems,
+  projectsData,
+  experienceData,
+  educationData,
+  projectDataSummary,
+};

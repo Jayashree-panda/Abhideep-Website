@@ -12,6 +12,13 @@ code {
     monospace;
 }
 
+$primary: aqua;
+$secondary: springgreen;
+:export {
+  primary: $primary;
+  secondary: $secondary;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

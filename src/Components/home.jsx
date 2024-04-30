@@ -1,53 +1,42 @@
 import React from "react";
+import { projectDataSummary } from "../constants";
+import styles from "../index.scss";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center mt-10 font-mono">
-      <img
-        src="./abhideep.jpeg"
-        alt=""
-        className="rounded-[50%] h-[300px] w-[300px]"
-      />
-      <div className="grid grid-cols-2 mt-10 px-[20%] gap-10 text-lg text-[springgreen]">
-        <div>
-          <p>
-            I am Abhideep Tripathy. I work as a Product Development Analyst at
-            <b> American Express</b>. I have almost 3 years of working
-            experience in this field. Before this I have worked with{" "}
-            <b>EXL Service </b>
-            as Buisness Analyst.
-          </p>
-          <br />
-          <p>
-            I completed my Bachelor's in Engineering from <b>BITS Pilani</b> in{" "}
-            <b>Mechanical Engineering</b>. There, I was the President and Tech
-            Lead of Student Welfare Division.
-          </p>
-          <br />
-          <p>
-            I completed my Bachelor's in Engineering from <b>BITS Pilani</b> in{" "}
-            <b>Mechanical Engineering</b>. There, I was the President and Tech
-            Lead of Student Welfare Division.
-          </p>
-        </div>
-        <div>
-          <p>
-            Born on 15th October 1931 at Rameswaram in Tamil Nadu, Dr. Avul
-            Pakir Jainulabdeen Abdul Kalam, specialized in Aeronautical
-            Engineering from Madras Institute of Technology. Dr. Kalam made
-            significant contribution as Project Director to develop India's
-            first indigenous Satellite Launch Vehicle (SLV-III) which
-            successfully injected the Rohini satellite in the near earth orbit
-            in July 1980 and made India an exclusive member of Space Club.
-          </p>
-          <br />
-          <p>
-            Born on 15th October 1931 at Rameswaram in Tamil Nadu, Dr. Avul
-            Pakir Jainulabdeen Abdul Kalam, specialized in Aeronautical
-            Engineering from Madras Institute of Technology. Dr. Kalam made
-            significant contribution as Project Director to develop India's
-            first indigenous Satellite Launch Vehicle (SLV-III)
-          </p>
+    <div>
+      <div className="flex flex-col justify-center pt-8 items-center mt-[4%]">
+        <img
+          src="./abhideep.jpeg"
+          alt=""
+          className="rounded-[50%] h-[150px] w-[150px]"
+        />
+        <p className="text-lg mt-2">
+          I am Abhideep. I analyze data to take accurate buisness decision. I am
+          Abhideep. I analyze data to take accurate buisness decision.
+        </p>
+        I am Abhideep. I analyze data to take accurate buisness decision.
+      </div>
+      <div>
+        <h1 className="tracking-widest text-3xl font-bold text-center mt-[4%] text-[springgreen]">
+          PORTFOLIO
+        </h1>
+        <div className="flex flex-col items-center justify-center">
+          <div className="flex justify-center mt-4 gap-[1%]">
+            {projectDataSummary.map((project) => (
+              <div className={`border-2 border-[aqua] w-[15%] p-3 rounded-3xl`}>
+                <img src={project.source} />
+                <p
+                  className={`text-base font-bold mt-1 text-[${styles.secondary}]`}
+                >
+                  {project.heading}
+                </p>
+              </div>
+            ))}
+          </div>
+          <button className="mt-6 border-2 border-[grey] p-2 text-[grey] font-bold rounded-lg">
+            See All Projects
+          </button>
         </div>
       </div>
     </div>
