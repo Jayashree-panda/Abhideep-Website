@@ -25,7 +25,7 @@ export default function Home() {
           <div className="flex justify-center mt-4 gap-[1%]">
             {projectDataSummary.map((project) => (
               <div className={`border-2 border-[aqua] w-[15%] p-3 rounded-3xl`}>
-                <img src={project.source} />
+                <img src={project.source} alt="" />
                 <p
                   className={`text-base font-bold mt-1 text-[${styles.secondary}]`}
                 >

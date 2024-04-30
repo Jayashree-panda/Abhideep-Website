@@ -1,7 +1,6 @@
 import React from "react";
 import { MdLocationOn } from "react-icons/md";
 import { educationData } from "../constants";
-import styles from "../index.scss";
 
 export default function Education() {
   const renderElement = (education) => (
